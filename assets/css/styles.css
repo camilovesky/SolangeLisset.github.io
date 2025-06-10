@@ -1,6 +1,11 @@
-body {
+body, html{
   font-family: "Raleway", sans-serif;
+  width: 100%;;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
 
 /* Hero Section */
 
@@ -42,4 +47,24 @@ h1{
     width: 100px;
   }
 
+}
+
+/*index.html*/
+
+
+h2{
+    font-size: ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 0;
+    background-color: #07a09b;
+}
+
+#educacion ul li, #experiencia ul li{
+    list-style: none;
 }
